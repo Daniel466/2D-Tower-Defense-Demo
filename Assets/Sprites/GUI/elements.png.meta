@@ -12,7 +12,7 @@ TextureImporter:
     21300014: elements_7
     21300016: elements_8
     21300018: elements_9
-    21300020: elements_10
+    21300020: currency_icon
     21300022: elements_11
     21300024: skull_icon
     21300026: elements_13
@@ -474,7 +474,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: elements_10
+      name: currency_icon
       rect:
         serializedVersion: 2
         x: 469
