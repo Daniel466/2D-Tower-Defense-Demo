@@ -47,3 +47,6 @@ TagManager:
   - name: Roads
     uniqueID: 3165484715
     locked: 0
+  - name: Trees
+    uniqueID: 4020185183
+    locked: 0
