@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6076711865789070805}
   - component: {fileID: 6076711865789070811}
   - component: {fileID: 6076711865789070808}
+  - component: {fileID: 664823943}
   m_Layer: 0
   m_Name: Skeleton Captain
   m_TagString: Untagged
@@ -126,3 +127,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.15, y: 2.25}
   m_EdgeRadius: 0
+--- !u!114 &664823943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076711865789070804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea741f9e18ae4f839c8d1164c983ab51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingNode: {fileID: 0}
+  speed: 0.025

@@ -8394,11 +8394,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Skeleton Grunt
       objectReference: {fileID: 0}
-    - target: {fileID: 2540420586887800077, guid: d84b506ed58e1544a87cb3cb66e7d427,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2540420586887800067, guid: d84b506ed58e1544a87cb3cb66e7d427,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8454,6 +8449,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 524982199, guid: d84b506ed58e1544a87cb3cb66e7d427, type: 3}
+      propertyPath: startingNode
+      value: 
+      objectReference: {fileID: 2090912581}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d84b506ed58e1544a87cb3cb66e7d427, type: 3}
 --- !u!1001 &5228499247690597058
@@ -8467,11 +8466,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Skeleton Berserker
-      objectReference: {fileID: 0}
-    - target: {fileID: 5228499247665134391, guid: 739d32c536f52f34d9907b0b9fdf7619,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5228499247665134389, guid: 739d32c536f52f34d9907b0b9fdf7619,
         type: 3}
@@ -8528,6 +8522,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 59046390, guid: 739d32c536f52f34d9907b0b9fdf7619, type: 3}
+      propertyPath: startingNode
+      value: 
+      objectReference: {fileID: 2090912581}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 739d32c536f52f34d9907b0b9fdf7619, type: 3}
 --- !u!1001 &6076711866369987922
@@ -8541,11 +8539,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Skeleton Captain
-      objectReference: {fileID: 0}
-    - target: {fileID: 6076711865789070804, guid: e0b3cc2f5cfebfc42a0dbeed7bfe3af2,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6076711865789070810, guid: e0b3cc2f5cfebfc42a0dbeed7bfe3af2,
         type: 3}
@@ -8602,5 +8595,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 664823943, guid: e0b3cc2f5cfebfc42a0dbeed7bfe3af2, type: 3}
+      propertyPath: startingNode
+      value: 
+      objectReference: {fileID: 2090912581}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0b3cc2f5cfebfc42a0dbeed7bfe3af2, type: 3}
