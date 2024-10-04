@@ -31,6 +31,8 @@ public class AutoMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (targetNode == null) { return; }
+        
         if (other.gameObject == targetNode.gameObject)
         {
             targetNode = targetNode.GetNextNode();
