@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2540420586887800065}
   - component: {fileID: 4954082568115437120}
   - component: {fileID: 5389413357897582758}
+  - component: {fileID: 2540420587243958973}
   - component: {fileID: 524982199}
   m_Layer: 0
   m_Name: Skeleton Grunt
@@ -166,6 +167,18 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.09}
   m_Size: {x: 1.55, y: 2.6}
   m_Direction: 0
+--- !u!114 &2540420587243958973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2540420586887800077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38379209c797b1e46921b50217ee8cb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &524982199
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using UnityEngine;
 
 public abstract class Wave : PausableTimer
 {
+    [SerializeField] protected List<SpawnInstruction> spawnInstructions = 
+        new List<SpawnInstruction>();
+    
     protected int currentInstructionIndex;
 
     public event EventHandler<EventArgTemplate<bool>> WaveCompleted;
