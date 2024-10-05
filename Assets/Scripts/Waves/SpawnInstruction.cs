@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 
 [Serializable]
-public class SpawnInstruction : MonoBehaviour
+public class SpawnInstruction
 {
     [SerializeField] private NavigationNode startingNode;
     [SerializeField] private float spawnDelay;

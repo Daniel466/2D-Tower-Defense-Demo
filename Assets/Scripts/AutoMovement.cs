@@ -1,6 +1,4 @@
-﻿using System;
-using UnityEngine;
-using UnityEngine.Assertions;
+﻿using UnityEngine;
 
 public class AutoMovement : MonoBehaviour
 {
@@ -9,14 +7,22 @@ public class AutoMovement : MonoBehaviour
 
     private NavigationNode targetNode;
 
-    private void Awake()
+    public NavigationNode StartingNode
     {
-        Assert.IsNotNull(startingNode);
+        get { return startingNode; }
+        set
+        {
+            if (startingNode == null)
+            {
+                startingNode = value;
+                InitializeStartingNode();
+            }
+        }
     }
 
     private void Start()
     {
-        targetNode = startingNode;
+        InitializeStartingNode();
     }
 
     private void Update()
@@ -37,5 +43,10 @@ public class AutoMovement : MonoBehaviour
         {
             targetNode = targetNode.GetNextNode();
         }
+    }
+
+    private void InitializeStartingNode()
+    {
+        targetNode = startingNode;
     }
 }

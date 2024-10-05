@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PausableTimer : MonoBehaviour
 {
@@ -17,5 +18,16 @@ public class PausableTimer : MonoBehaviour
     protected void ResetTimer()
     {
         Timer = 0.0f;
+    }
+
+    protected IEnumerator WaitForTime(float timeToWait)
+    {
+        var timer = 0.0f;
+        while (timer <= timeToWait)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        yield return null;
     }
 }
