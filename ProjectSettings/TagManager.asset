@@ -59,6 +59,9 @@ TagManager:
   - name: Extras
     uniqueID: 3255898037
     locked: 0
+  - name: Towers
+    uniqueID: 1978500475
+    locked: 0
   - name: Enemies
     uniqueID: 1956716033
     locked: 0
