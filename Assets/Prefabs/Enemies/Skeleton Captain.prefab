@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 6535538985263122373}
   - component: {fileID: 6076711866369987924}
   - component: {fileID: 664823943}
+  - component: {fileID: 8417250536800633345}
+  - component: {fileID: 7078658854367523671}
   m_Layer: 0
   m_Name: Skeleton Captain
   m_TagString: Enemy
@@ -193,3 +195,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingNode: {fileID: 0}
   speed: 0.025
+--- !u!114 &8417250536800633345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076711865789070804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bfcb3eff4f9694db6905d5bb289036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  damagingTags: []
+--- !u!114 &7078658854367523671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6076711865789070804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc7f2bcc3acf0dd489fed75f9eaedb8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  types: 01000000
